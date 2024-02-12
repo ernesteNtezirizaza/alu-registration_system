@@ -1,0 +1,57 @@
+#!/bin/bash
+# Create student record
+
+create_student_record(){
+echo "Enter student email"
+read email
+
+echo "Enter student name:"
+read name
+
+echo "Enter student ID:"
+read id
+
+echo "$email, $name, $id" >> students-list_1023.txt
+echo "Student recorded successfully"
+
+}
+
+# view all students
+
+view_student_list(){
+echo "Viewin student lists"
+}
+
+# delete student
+
+delete_student_record(){
+echo "delteing students"
+}
+
+# update student
+
+update_student_record(){
+echo "updatung students"
+}
+
+# menu
+
+while true; do
+    echo "Choose an option:"
+    echo "1. Create student record"
+    echo "2. View all students"
+    echo "3. Delete student record (by Student ID)"
+    echo "4. Update student record (by Student ID)"
+    echo "5. Exit the application"
+    read choice
+
+    case $choice in
+	1) create_student_record ;;
+	2) view_student_list ;;
+	3) delete_student_record ;;
+	4) update_student_record ;;
+	*) echo "Invalid option."
+
+    esac
+done
+
