@@ -35,7 +35,14 @@ echo "student record deleted successfully"
 # update student
 
 update_student_record(){
-echo "updatung students"
+echo "enter student id to update"
+read id
+echo "enter new student email"
+read new_email
+echo "enter new student age"
+read new_age
+sed -i "/^$id,/ s/.*/$email, $age, $id/" students-list_1023.txt
+echo "student record updated successfully"
 }
 
 # menu
