@@ -61,6 +61,7 @@ while true; do
 	2) view_student_list ;;
 	3) delete_student_record ;;
 	4) update_student_record ;;
+	5) exit ;;
 	*) echo "Invalid option."
 
     esac
