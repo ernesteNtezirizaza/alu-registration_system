@@ -6,7 +6,7 @@ echo "Enter student email"
 read email
 
 echo "Enter student age:"
-read name
+read age
 
 echo "Enter student ID:"
 read id
@@ -20,12 +20,16 @@ echo "Student recorded successfully"
 
 view_student_list(){
 echo "Viewin student lists"
+cat students-list_1023.txt
 }
 
 # delete student
 
 delete_student_record(){
-echo "delteing students"
+echo "enter student ID to delete"
+read id
+sed -i "/$id/d" students-list_1023.txt
+echo "student record deleted successfully"
 }
 
 # update student
