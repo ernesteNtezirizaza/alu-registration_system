@@ -1,1 +1,3 @@
-ikirezi@gmail.com, 12, 1
+2, irielle@alustudent.com, 16
+3, divine@alustudent.com, 17
+5, jamesdokuarue@alustudent.com, 20
