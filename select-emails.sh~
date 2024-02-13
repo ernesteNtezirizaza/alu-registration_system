@@ -1,3 +1,0 @@
-#!/bin/bash
-# Select just the emails of the students
-awk -F',' '{print $2}' students-list_1023.txt > student-emails.txt
