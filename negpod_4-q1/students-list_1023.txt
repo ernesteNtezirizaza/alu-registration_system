@@ -2,3 +2,5 @@
 3, divine@alustudent.com, 17
 5, jamesdokuarue@alustudent.com, 20
 1, e.nteziriza@alustudent.com, 12
+4, cleturs@alustudent.com, 19
+6, ananias@gmail.com, 20

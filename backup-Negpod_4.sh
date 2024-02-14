@@ -1,20 +1,31 @@
 #!/bin/bash
 
-# Remote server details
-host="2f05c1f8800b.3be8ebfc.alu-cod.online"
-username="2f05c1f8800b"
-password="d4a1d225d0abda9549d8"
+# Configuration variables
+remote_host="2f05c1f8800b.3be8ebfc.alu-cod.online"
+remote_username="2f05c1f8800b"
+remote_password="d4a1d225d0abda9549d8"
 remote_directory="/summative/1023-2024j"
-
-# Backup directory
 local_directory="negpod_4-q1"
 
-# Perform backup using rsync
-rsync -avz --progress -e "sshpass -p $password ssh -o StrictHostKeyChecking=no" "$local_directory" "$username@$host:$remote_directory"
+# Function to execute the backup
+perform_backup() {
+    echo "Starting backup..."
 
-# Check if backup is successful
-if sshpass -p "$password" ssh -o StrictHostKeyChecking=no "$username@$host" "[ -d \"$remote_directory/$local_directory\" ]"; then
-    echo "Backup completed successfully."
+    # Use rsync to securely copy files to the remote server
+    rsync -avz -e "sshpass -p $remote_password ssh -o StrictHostKeyChecking=no" "$local_directory" "$remote_username@$remote_host:$remote_directory"
+
+    # Check if rsync command was successful
+    if [ $? -eq 0 ]; then
+        echo "Backup completed successfully."
+    else
+        echo "Backup failed. Please check your settings and try again."
+    fi
+}
+
+# Check if the local directory exists
+if [ -d "$local_directory" ]; then
+    # Execute backup
+    perform_backup
 else
-    echo "Error: Backup failed."
+    echo "Error: Local directory '$local_directory' not found. Please provide the correct directory path."
 fi
