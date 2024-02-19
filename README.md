@@ -3,8 +3,6 @@
 
 ### Getting started
 
-> Make sure you have a well-functioning Linux environment.
-
 clone the repo
 
 ```bash
@@ -22,9 +20,7 @@ cd negpod_4-q1
 ./main.sh
 ```
 
-> Program Menu:
-
-### Features
+### Program Features
 
 1. Create a student record
 2. View all students
