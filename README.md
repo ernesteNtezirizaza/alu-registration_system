@@ -8,20 +8,21 @@
 clone the repo
 
 ```bash
-git clone https://github.com/Best-Verie/summative-2_Negpod_3
+git clone https://github.com/ernesteNtezirizaza/alu-registration_system
 ```
 Run
 
 
 ``` bash
-cd summative-2_Negpod_3
+cd alu-registration_system
+cd negpod_4-q1
 ```
 
 ``` bash
-bash main.sh
+./main.sh
 ```
 
-> choose the operation according to the menu
+> Program Menu:
 
 ### Features
 
