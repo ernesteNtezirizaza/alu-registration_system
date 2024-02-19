@@ -26,16 +26,15 @@ cd negpod_4-q1
 
 ### Features
 
-1. Recording student
-2. Viewing a list of all registered students 
-3. Searching a specific student
-4. Updating student details by id
-5. Deleting student records by id
-6. A very exceptional navigation system
+1. Create a student record
+2. View all students
+3. Delete student record (by Student ID)
+4. Update student record (by Student ID)
+5. Exit the application
 
 ### Additional Scripts
 
-There are two additional scripts files in this directory, <code>move-t0-directory.sh</code> and <code>backup-Negpod_3.sh</code>.
+There are two additional script files in this directory, <code>move-t0-directory.sh</code> and <code>backup-Negpod_3.sh</code>.
 1. Running <code>move-to-directory.sh</code> will move <code>main.sh, Students-list_1023.txt, Select-emails.sh and student-emails.txt</code> into the <code>negpod_3-q1</code> directory
 2. Running <code>backup-Negpod_3.sh</code> backups the <code>negpod_3-q1</code> directory to a remote server that is specified in the script.
 
