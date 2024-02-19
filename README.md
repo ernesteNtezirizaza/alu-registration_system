@@ -1,4 +1,4 @@
-# ALU REGISTRATION SYSTEM 
+# ALU Registration System
 
 
 ### Getting started
