@@ -29,8 +29,21 @@ cd negpod_4-q1
 
 ### Additional Files
 
-1. Running <code>move-to-directory.sh</code> will move <code>main.sh, students-list_1023.txt, select-emails.sh and student-emails.txt</code> into the <code>negpod_4-q1</code> directory
+Move back to the root of the project.
+``` bash
+cd alu-registration_system
+```
+1. Running <code>move-to-directory.sh</code> will move <code>main.sh, students-list_1023.txt, select-emails.sh and student-emails.txt</code> into the <code>negpod_4-q1</code> directory.
+
+``` bash
+./move-to-directory.sh
+```
+   
 2. Running <code>backup-Negpod_4.sh</code> will back up the <code>negpod_4-q1</code> directory to a remote server that is specified in the script.
+
+``` bash
+./backup-Negpod_4.sh
+```
 
 The <code>rsync</code> and <code>sshpass</code> commands are not available on your system by default. That said, you will need to install them first before running <code>backup-Negpod_4.sh</code>
 
