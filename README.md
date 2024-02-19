@@ -3,7 +3,7 @@
 
 ### Getting started
 
-> Make sure you have a well-functioning linux environment.
+> Make sure you have a well-functioning Linux environment.
 
 clone the repo
 
@@ -53,10 +53,10 @@ sudo apt install rsync
 sudo apt install sshpass
 ```
 
-### Contributors
+### Negpod 4 Contributors
 
-1. Best Verie Iradukunda
-2. Jean Jabo
-3. Egide Harerimana
-4. Habib Josue Ahadi
-5. Hortance Irakoze
+1. David Arua
+2. James Jok Dut Akuei
+3. Erneste Ntezirizaza
+4. Irielle Irakoze
+5. Divine Ikirezi
