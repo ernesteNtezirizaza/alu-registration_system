@@ -28,9 +28,9 @@ cd negpod_4-q1
 4. Update student record (by Student ID)
 5. Exit the application
 
-### Additional Scripts
+### Additional Files
 
-There are two additional script files in this directory, <code>move-to-directory.sh</code> and <code>backup-Negpod_4.sh</code>.
+There are two additional files in this directory, <code>move-to-directory.sh</code> and <code>backup-Negpod_4.sh</code>.
 1. Running <code>move-to-directory.sh</code> will move <code>main.sh, students-list_1023.txt, select-emails.sh and student-emails.txt</code> into the <code>negpod_4-q1</code> directory
 2. Running <code>backup-Negpod_4.sh</code> will back up the <code>negpod_4-q1</code> directory to a remote server that is specified in the script.
 
