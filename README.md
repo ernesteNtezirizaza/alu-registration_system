@@ -3,13 +3,12 @@
 
 ### Getting started
 
-clone the repo
+Clone the repo
 
 ```bash
 git clone https://github.com/ernesteNtezirizaza/alu-registration_system
 ```
 Run
-
 
 ``` bash
 cd alu-registration_system
