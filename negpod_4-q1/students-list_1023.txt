@@ -5,3 +5,4 @@
 4, cleturs@alustudent.com, 19
 6, ananias@gmail.com, 20
 7, pacifique@alustudent.com, 24
+8, akaliza@alustudent.com, 21
